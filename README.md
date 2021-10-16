@@ -1,9 +1,21 @@
-# oc_ingenieur-ia_P2
-Participez à un concours sur la Smart City
+## Installation de l'environnement virtuel
 
-First Header | Second Header
---- | ---
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-a | b
+Créer l'environnement à partir du fichier yaml
+```bash
+conda env create -f environment.yml
+```
 
+Activer l'environnement
+```bash
+conda activate projet_2
+```
+
+Quitter l'environnement
+```bash
+conda deactivate projet_2
+```
+
+Supprimer l'environnement
+```bash
+conda env remove --name projet_2
+```
